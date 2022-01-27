@@ -1,0 +1,30 @@
+{
+  "name": "local-datetime-allstate",
+  "version": "1.0.0",
+  "description": "Just local times, dates, days, Months using the JavaScript Date API.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arifkhan-silicornya/Local-DateTime-AllState.git"
+  },
+  "keywords": [
+    "Date.now()",
+    "date",
+    "datetime",
+    "timezones",
+    "localtime",
+    "timezone"
+  ],
+  "author": "mdarifkhan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arifkhan-silicornya/Local-DateTime-AllState/issues"
+  },
+  "homepage": "https://github.com/arifkhan-silicornya/Local-DateTime-AllState#readme",
+  "dependencies": {
+    "link": "^0.1.5"
+  }
+}
