@@ -61,7 +61,7 @@ const outputObject = AllStateTimeDate('America/Mexico_City);
 
 ## Parameters 
 
-### ( you can only use below region input)
+### ( you can only use below region )
 
 ```
 ## Available Time Zones
