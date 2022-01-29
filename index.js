@@ -31,8 +31,11 @@ function AllStateTimeDate(e)
     let onlyMonthString = month[new Date(date1).getMonth()];
     let getTimezoneOffset = new Date(date1).getTimezoneOffset();
     let toDateString = new Date(date1).toDateString();
-    
-    
+
+    let nextDate = new Date(date1)
+    nextDate.setDate(nextDate.getDate()+1)
+    let next = JSON.stringify(nextDate);
+    let nextD = next.slice(1,11)
 
 const timeDateDay = {
     "TimeZone":event  ,
@@ -48,9 +51,13 @@ const timeDateDay = {
     "onlyMonthString":onlyMonthString,
     "getTimezoneOffset":getTimezoneOffset,
     "toDateString":toDateString,
-    "TodayTimeString" : TodayTimeString/1000
+    "TodayTimeString" : TodayTimeString/1000,
+    "nextDate" : nextD
 }
 return timeDateDay
 }
+
+console.log(AllStateTimeDate('Asia/Kolkata'));
+
 
 module.exports = AllStateTimeDate
