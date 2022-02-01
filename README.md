@@ -1,6 +1,8 @@
 # Local-DateTime-AllState
 This system is made for all state local date time according to zones using the JavaScript Date API.
 
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="122" height="20" role="img" aria-label="dependencies: none"><title>dependencies: none</title><g shape-rendering="crispEdges"><rect width="85" height="20" fill="#555"/><rect x="85" width="37" height="20" fill="#4c1"/></g><g fill="#fff" text-anchor="middle" font-family="Verdana,Geneva,DejaVu Sans,sans-serif" text-rendering="geometricPrecision" font-size="110"><text x="435" y="140" transform="scale(.1)" fill="#fff" textLength="750">dependencies</text><text x="1025" y="140" transform="scale(.1)" fill="#fff" textLength="270">none</text></g></svg>
+
 #### Install it via npm:
 
 ```shell
@@ -16,25 +18,32 @@ const AllStateTimeDate = require('local-datetime-allstate')
 ```shell
 AllStateTimeDate('Europe/Paris');
 ```
+##### To get all zone in one call
+```shell
+AllStateTimeDate('all'); // available in "version": "1.1.0"
+```
+
+
 ##### Examples
 
 ```shell
 const outputObject = AllStateTimeDate(); // no region input, default Asia/Dhaka
 {
   TimeZone: 'Asia/Dhaka',
-  TodayTime: '7:49:32 AM',
-  TodayDate: '1/27/2022,',
-  TodayDay: 4,
-  onlyDate: 27,
-  TodayDayString: 'Thursday',
+  TodayTime: '2:42:54 AM',
+  TodayDate: '2022-02-01',
+  TodayDay: 3,
+  onlyDate: 2,
+  TodayDayString: 'Wednesday',
   onlyYear: 2022,
-  onlyHour: 7,
-  onlyMinutes: 49,
-  onlyMonth: 0,
-  onlyMonthString: 'January',
+  onlyHour: 2,
+  onlyMinutes: 42,
+  onlyMonth: 1,
+  onlyMonthString: 'February',
   getTimezoneOffset: -360,
-  toDateString: 'Thu Jan 27 2022',
-  TodayTimeString: 1643248172
+  toDateString: 'Wed Feb 02 2022',
+  TodayTimeString: 1643748174,
+  nextDate: '2022-02-02'
 }
 ```
 
@@ -42,19 +51,20 @@ const outputObject = AllStateTimeDate(); // no region input, default Asia/Dhaka
 const outputObject = AllStateTimeDate('America/Mexico_City); 
 {
   TimeZone: 'America/Mexico_City',
-  TodayTime: '7:56:51 PM',
-  TodayDate: '1/26/2022,',
-  TodayDay: 3,
-  onlyDate: 26,
-  TodayDayString: 'Wednesday',
+  TodayTime: '2:44:59 PM',
+  TodayDate: '2022-02-01',
+  TodayDay: 2,
+  onlyDate: 1,
+  TodayDayString: 'Tuesday',
   onlyYear: 2022,
-  onlyHour: 19,
-  onlyMinutes: 56,
-  onlyMonth: 0,
-  onlyMonthString: 'January',
+  onlyHour: 14,
+  onlyMinutes: 44,
+  onlyMonth: 1,
+  onlyMonthString: 'February',
   getTimezoneOffset: -360,
-  toDateString: 'Wed Jan 26 2022',
-  TodayTimeString: 1643205411
+  toDateString: 'Tue Feb 01 2022',
+  TodayTimeString: 1643705099,
+  nextDate: '2022-02-02'
 }
 ```
 
@@ -487,4 +497,21 @@ Pacific/Apia
 ```
 
 ## License
-ISC
+The MIT License (MIT)
+
+Copyright (c)2022 arifkhan-silicornya
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of
+this software and associated documentation files (the "Software"), to deal in
+the Software without restriction, including without limitation the rights to
+use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of
+the Software, and to permit persons to whom the Software is furnished to do so,
+subject to the following conditions:
+
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS
+FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR
+COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER
+IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
+CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
