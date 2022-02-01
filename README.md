@@ -18,7 +18,7 @@ AllStateTimeDate('Europe/Paris');
 ```
 ##### To get all zone in one call
 ```shell
-AllStateTimeDate('all'); // available in "version": "1.1.0"
+AllStateTimeDate('all'); // "version": "^1.1.0"
 ```
 
 
