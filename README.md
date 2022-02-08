@@ -1,7 +1,7 @@
 # Local-DateTime-AllState
 This system is made for all state local date time according to zones using the JavaScript Date API.
 
-  [![NPM Version][npm-image]][npm-url]
+  [![NPM Version][npm-image]][https://github.com/arifkhan-silicornya/Local-DateTime-AllStatel]
   [![NPM Downloads][downloads-image]][downloads-url]
   [![Git Issues][issues-img]][issues-url]
   [![Closed Issues][closed-issues-img]][closed-issues-url]
