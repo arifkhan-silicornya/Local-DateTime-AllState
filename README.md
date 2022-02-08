@@ -1,6 +1,17 @@
 # Local-DateTime-AllState
 This system is made for all state local date time according to zones using the JavaScript Date API.
 
+  [![NPM Version][npm-image]][npm-url]
+  [![NPM Downloads][downloads-image]][downloads-url]
+  [![Git Issues][issues-img]][issues-url]
+  [![Closed Issues][closed-issues-img]][closed-issues-url]
+  <img src="docs/assets/no-dependencies.svg" alt="no dependencies">
+  [![Code Quality: Javascript][lgtm-badge]][lgtm-badge-url]
+  [![Total alerts][lgtm-alerts]][lgtm-alerts-url]
+  [![Caretaker][caretaker-image]][caretaker-url]
+  [![Sponsoring][sponsor-badge]][sponsor-url]
+  [![MIT license][license-img]][license-url]
+
 #### Install it via npm:
 
 ```shell
