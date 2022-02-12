@@ -1,8 +1,6 @@
 # Local-DateTime-AllState
 This system is made for all state local date time according to zones using the JavaScript Date API.
 
-![npm](https://img.shields.io/npm/dt/local-datetime-allstate)
-
 ![npm](https://img.shields.io/npm/dw/local-datetime-allstate)
 ![npm](https://img.shields.io/npm/dm/local-datetime-allstate)
 
