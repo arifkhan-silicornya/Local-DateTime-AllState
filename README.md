@@ -1,6 +1,7 @@
 # Local-DateTime-AllState
 This system is made for all state local date time according to zones using the JavaScript Date API.
 
+![Size](https://img.shields.io/github/size/arifkhan-silicornya/Local-DateTime-AllState)
 
 #### Install it via npm:
 
