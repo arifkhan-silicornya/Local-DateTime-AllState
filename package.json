@@ -1,6 +1,6 @@
 {
   "name": "local-datetime-allstate",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "Just local times, dates, days, Months using the JavaScript Date API.",
   "main": "index.js",
   "scripts": {
